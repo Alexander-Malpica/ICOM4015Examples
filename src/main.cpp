@@ -28,6 +28,8 @@ int main() {
 
     Triangle *triangleList[] = { t1, t2, t3 };
     cout << "Total area is: " << Triangle::sumAreas(triangleList, 3) << endl;
+    cout << "Total area is: " << Triangle::sumAreas(triangleList, 3) << endl;
+
 
     return 0;
 }
